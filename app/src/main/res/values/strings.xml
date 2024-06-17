@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SmartHome</string>
+    <string name="smart_lamp_title">Smart Lamp</string>
+    <string name="smart_device_img">smart_device_img</string>
+    <string name="smart_tv_title">smart_tv_title</string>
+    <string name="my_home_title">My home</string>
+</resources>

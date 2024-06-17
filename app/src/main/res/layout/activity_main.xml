@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/my_home_title"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/smartLamp1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/smart_lamp_title"
+        android:src="@drawable/baseline_highlight_24"
+        app:tint="@color/off_lamp_color" />
+
+    <ImageView
+        android:id="@+id/smartLamp2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/smart_lamp_title"
+        android:src="@drawable/baseline_highlight_24"
+        app:tint="@color/off_lamp_color" />
+
+    <ImageView
+        android:id="@+id/smartTv1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/smart_tv_title"
+        android:src="@drawable/baseline_tv_24"
+        app:tint="@color/off_lamp_color" />
+
+</LinearLayout>
